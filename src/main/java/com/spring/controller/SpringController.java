@@ -14,5 +14,8 @@ public class SpringController implements Serializable {
       return "Welcome to SpringBoot....";
     }
 
+    public String displayMsg() {
+      return "github-webhook"; 
+    }
 
 }
